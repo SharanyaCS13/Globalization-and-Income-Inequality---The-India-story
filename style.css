@@ -15,7 +15,7 @@ body    {
     width: 100%;
     
     background-image: url('Globalization%20&%20Income%20Income%20Inequality.jpg');
-    background-size: 150%; /* Adjusts the background image size to cover the entire viewport */
+    background-size: 100%; /* Adjusts the background image size to cover the entire viewport */
     background-repeat: no-repeat;
 }
 

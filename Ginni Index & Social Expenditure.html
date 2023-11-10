@@ -1,0 +1,81 @@
+
+<html>
+    <head><meta charset="utf-8" />
+    <title> India - The Globalization Experience</title>
+       <!-- CSS -->
+        <link href="style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        
+        <div class="dropdown">
+            <button class="dropbtn">Parameters</button><br><br>
+            <div class="dropdown-content">
+            <a href="Ginni%20Index%20&%20GDP.html">GDP</a>
+            <a href="KOF%20Index.html">KOF Index</a>
+            <a href="Ginni%20Index%20&%20Employment.html">Employment</a>
+            <a href="Ginni%20Index%20&%20School%20Enrolment.html">School Enrolment</a>
+            <a href="Ginni%20Index%20&%20Social%20Development.html">Social Development</a>
+            <a href="Ginni%20Index%20and%20Unemployment%20Rates.html">Unemployment Rates</a>
+            <a href="Ginni%20Index%20&%20Urban%20Development.html">Urban Development</a>
+            <a href="Ginni%20Index%20&%25%20Population%20using%20Internet%20.html">% Population using Internet</a>
+            <a href="Ginni%20Index%20&%20No%20of%20Account.html">No of Account(per 1000 people)</a>
+            <a href="Ginni%20Index%20&%20Social%20Expenditure.html">Social Expenditure by Government</a>
+            <a href="Ginni%20Index%20&%20Expenditure%20on%20HealthCare.html">Expenditure on HealthCare</a>
+            </div>
+        </div>
+        
+        <h3>  Factors affecting Income Inequality:<br> How does the Social Expenditure by Government have an affect Income Inequality?</h3>
+        <div class="split-screen">
+            <div class="left-section">
+        
+       <script type="text/javascript" src="plotlyjs-bundle.js"></script>
+            
+            
+        <script type="text/javascript" src="figure.js"></script>
+        
+        <div id="40c4e58b-4e16-4aa3-8a75-bcb4b0c258c7" style="width: 50%; height: 70%;" class="plotly-graph-div"></div>
+        <script type="text/javascript">
+            (function(){
+                window.PLOTLYENV={'BASE_URL': 'https://plotly.com'};
+
+                var gd = document.getElementById('40c4e58b-4e16-4aa3-8a75-bcb4b0c258c7')
+                var resizeDebounce = null;
+
+                function resizePlot() {
+                    var bb = gd.getBoundingClientRect();
+                    Plotly.relayout(gd, {
+                        width: bb.width,
+                        height: bb.height
+                    });
+                }
+
+                
+                window.addEventListener('resize', function() {
+                    if (resizeDebounce) {
+                        window.clearTimeout(resizeDebounce);
+                    }
+                    resizeDebounce = window.setTimeout(resizePlot, 100);
+                });
+                
+
+                
+                Plotly.plot(gd,  {
+                    data: figure.data,
+                    layout: figure.layout,
+                    frames: figure.frames,
+                    config: {"showLink": true, "linkText": "Export to plotly.com", "mapboxAccessToken": "pk.eyJ1IjoiY2hyaWRkeXAiLCJhIjoiY2lxMnVvdm5iMDA4dnhsbTQ5aHJzcGs0MyJ9.X9o_rzNLNesDxdra4neC_A"}
+                });
+                
+           }());
+        </script></div>
+            
+            <div class="right-section">
+                <p>This is a graph that shows the relation between<br>
+                    Ginni Index and Social Expenditure by Government in India <br>
+                    since 1980 to 2020. As one can see, when there<br>
+                    is an increase in Ginni Index, there is an increase<br>
+                    in the Social Expenditure by Government  as well.<br>
+</p>
+            </div>
+            </div></body>
+</html>
